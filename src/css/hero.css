@@ -1,25 +1,25 @@
 .hero {
-  height: 400px;
-
+  aspect-ratio: 16 / 9;
   position: relative;
+  width: 100%;
 }
 .hero img.hero-background {
-  object-fit: cover;
-  object-position: top;
   width: 100%;
-  height: 100%;
 }
 .hero .hero-logo {
   position: absolute;
   left: 40px;
-  bottom: 40px;
-  width: 200px;
+  top: 40px;
+  max-width: 200px;
+  width: 20vw;
 }
 .hero .hero-content {
   color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: min(max(16px, 4vw), 22px);
   text-align: center;
   width: 100%;
 
   position: absolute;
-  top: 40px;
+  top: 16vw;
 }
