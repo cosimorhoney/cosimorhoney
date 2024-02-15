@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+main {
+  display: grid;
+  grid-column: 40px 1fr 40px;
+}
+@media (min-width: 700px) {
+  main {
+    grid-column: 1fr 620px 1fr;
+  }
+}
+main {
+  display: grid;
+  grid-template-columns: subgrid;
+}

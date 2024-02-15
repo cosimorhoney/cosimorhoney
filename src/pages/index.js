@@ -1,14 +1,20 @@
 import * as React from "react";
+/* Layout */
+import Page from "@layouts/Page";
+/* Component */
+import Hero from "@components/Hero";
+/* Image */
+import banner from "@images/Banner.png";
 
-const IndexPage = () => {
+const Home = () => {
   return (
-    <main>
-      <h1>Cosimo Rhoney</h1>
+    <Page>
+      <Hero alt="hello" h1="Cosimo Rhoney" img={banner} />
       <p>Coming soon.</p>
-    </main>
+    </Page>
   );
 };
 
-export default IndexPage;
+export default Home;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <title>Cosimo Rhoney</title>;
