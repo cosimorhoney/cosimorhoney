@@ -6,22 +6,24 @@
 .hero img.hero-background {
   width: 100%;
 }
-.hero .hero-logo {
-  position: absolute;
-  left: 40px;
-  top: 40px;
-  max-width: 200px;
-  width: 20vw;
-}
 .hero .hero-content {
   color: #fff;
-  font-family: "Courier New", Courier, monospace;
-  font-family: "Simo";
-  font-size: clamp(16px, 4vw, 22px);
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  gap: 20px;
 
   position: absolute;
-  top: 16vw;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+}
+.hero .hero-content .hero-logo {
+  /* max-width: 200px; */
+  height: 100%;
+}
+.hero .hero-content h1 {
+  font-family: var(--font-theme);
+  font-size: clamp(16px, 6vw, 60px);
+  text-transform: uppercase;
 }

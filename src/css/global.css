@@ -1,3 +1,7 @@
+:root {
+  --font-theme: Simo;
+}
+
 body {
   margin: 0;
 }
