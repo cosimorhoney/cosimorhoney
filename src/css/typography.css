@@ -1,0 +1,4 @@
+@font-face {
+  font-family: "Simo";
+  src: local("Simo"), url(./fonts/simo.ttf) format("truetype");
+}

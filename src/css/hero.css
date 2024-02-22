@@ -16,8 +16,10 @@
 .hero .hero-content {
   color: #fff;
   font-family: "Courier New", Courier, monospace;
-  font-size: min(max(16px, 4vw), 22px);
+  font-family: "Simo";
+  font-size: clamp(16px, 4vw, 22px);
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
 
   position: absolute;

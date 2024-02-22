@@ -1,5 +1,6 @@
 import React from "react";
 /* CSS */
+import "@css/typography.css";
 import "@css/hero.css";
 /* Image */
 import logo from "@images/CRP-Logo.png";

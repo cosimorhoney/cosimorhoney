@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "@layouts/Footer.js";
 /* CSS */
 import "@css/global.css";
+import "@css/typography.css";
 
 const Page = ({ children, className }) => {
   return (
