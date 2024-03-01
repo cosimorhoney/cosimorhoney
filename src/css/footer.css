@@ -1,4 +1,6 @@
 footer {
+  background-color: var(--color-text);
+  color: var(--color-bg);
   display: grid;
   grid-template-columns: 40px 1fr 40px;
   @media (min-width: 700px) {

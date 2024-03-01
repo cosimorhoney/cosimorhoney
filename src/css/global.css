@@ -1,8 +1,15 @@
+:root {
+  --color-app: #18100c;
+  --color-text: #18100c;
+  --color-bg: white;
+}
 body {
+  background-color: var(--color-app);
   font-family: var(--font-base);
   margin: 0;
 }
 main {
+  background-color: var(--color-bg);
   display: grid;
   grid-template-columns: 40px 1fr 40px;
   @media (min-width: 700px) {
