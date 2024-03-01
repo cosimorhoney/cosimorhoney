@@ -2,3 +2,7 @@
   font-family: "Simo";
   src: local("Simo"), url(./fonts/simo.ttf) format("truetype");
 }
+:root {
+  --font-theme: Simo;
+  --font-base: "Courier New", Courier, monospace;
+}

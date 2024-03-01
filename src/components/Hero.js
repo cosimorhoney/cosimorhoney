@@ -13,7 +13,7 @@ function Hero(props) {
       <div className="hero-content">
         <img className="hero-logo" src={logo} alt="CR Productions logo" />
         <h1>{h1}</h1>
-        {/* {children} */}
+        {children && children}
       </div>
     </div>
   );

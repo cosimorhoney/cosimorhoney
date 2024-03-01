@@ -1,29 +1,36 @@
 .hero {
   aspect-ratio: 16 / 9;
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
   position: relative;
   width: 100%;
 }
 .hero img.hero-background {
+  grid-column: 1 / -1;
+  max-height: 442px;
+  min-height: 120px;
   width: 100%;
 }
 .hero .hero-content {
   color: #fff;
   display: grid;
-  grid-template-rows: 60px 1fr;
+  grid-column: 2 / 3;
+  grid-template-rows: subgrid;
   gap: 20px;
 
   position: absolute;
   top: 40px;
-  left: 40px;
-  right: 40px;
-  bottom: 40px;
+  left: 0;
+  right: 0;
 }
 .hero .hero-content .hero-logo {
   /* max-width: 200px; */
-  height: 100%;
+  height: clamp(16px, 6vw, 60px);
 }
 .hero .hero-content h1 {
   font-family: var(--font-theme);
   font-size: clamp(16px, 6vw, 60px);
+  margin: 0;
   text-transform: uppercase;
 }
