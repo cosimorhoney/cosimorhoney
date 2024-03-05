@@ -3,12 +3,12 @@ footer {
   color: var(--color-bg);
   display: grid;
   grid-template-columns: 40px 1fr 40px;
-  @media (min-width: 700px) {
-    & {
-      grid-template-columns: 1fr 620px 1fr;
-    }
+}
+@media (min-width: 700px) {
+  footer {
+    grid-template-columns: 1fr 620px 1fr;
   }
-  > * {
-    grid-column: 2 / 3;
-  }
+}
+footer > * {
+  grid-column: 2 / 3;
 }
