@@ -6,3 +6,11 @@
   --font-theme: Simo;
   --font-base: "Courier New", Courier, monospace;
 }
+a:not([class]) {
+  color: #2f516a;
+}
+a:not([class]):active,
+a:not([class]):focus,
+a:not([class]):hover {
+  color: #0f726e;
+}
