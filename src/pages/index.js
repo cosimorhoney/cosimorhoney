@@ -43,7 +43,7 @@ const Home = () => {
           </a>
           .
         </p>
-        <h2>Cosimo Rhoney Productions Team</h2>
+        {/* <h2>Cosimo Rhoney Productions Team</h2>
         <p>
           Along with the business side of things, I have been working on small
           film projects to practice my skills. I have mainly been working on my
@@ -62,7 +62,7 @@ const Home = () => {
           The team is small now, but the only way for it to grow is for more
           people to join! Feel free to{" "}
           <a href="mailto:crphoto@proton.me">shoot me an email</a>.
-        </p>
+        </p> */}
       </section>
     </Page>
   );
