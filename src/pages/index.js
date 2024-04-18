@@ -29,7 +29,11 @@ const Home = () => {
           videography more to expand my services and produce more content.
           Currently, I offer both photography and videography service. You can
           contact me on{" "}
-          <a href="https://linkedin.com/in/cosimorhoney" target="_blank">
+          <a
+            href="https://linkedin.com/in/cosimorhoney"
+            target="_blank"
+            rel="noreferrer"
+          >
             Linkedin
           </a>
           . If you are interested in seeing and/or purchasing my photography

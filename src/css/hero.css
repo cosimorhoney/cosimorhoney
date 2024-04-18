@@ -1,7 +1,9 @@
 .hero {
   /* aspect-ratio: 16 / 9; */
+  align-content: center;
+  display: grid;
   grid-column: 1 / -1;
-  height: 40vh;
+  height: 40vw;
   max-height: 442px;
   min-height: 120px;
   overflow: hidden;
@@ -31,7 +33,7 @@
   color: #fff;
   display: grid;
   grid-column: 2 / 3;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 1fr 5fr;
   gap: 20px;
   z-index: 1;
 
@@ -46,7 +48,10 @@
 }
 .hero .hero-content h1 {
   font-family: var(--font-theme);
-  font-size: clamp(16px, 6vw, 60px);
-  margin: 0;
+  font-size: clamp(16px, 4vw, 38px);
+  line-height: 0.86;
+  margin: 0.1em 0 0;
   text-transform: uppercase;
+  width: 160px;
+  max-width: 60%;
 }
