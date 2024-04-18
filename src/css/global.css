@@ -2,6 +2,12 @@
   --color-app: #110c09;
   --color-text: #110c09;
   --color-bg: white;
+  --page-column: 40px minmax(200px, 1fr) 40px;
+  @media (min-width: 700px) {
+    & {
+      --page-column: 1fr 620px 1fr;
+    }
+  }
 }
 body {
   background-color: var(--color-app);
@@ -11,12 +17,7 @@ body {
 main {
   background-color: var(--color-bg);
   display: grid;
-  grid-template-columns: 40px minmax(200px, 1fr) 40px;
-}
-@media (min-width: 700px) {
-  main {
-    grid-template-columns: 1fr 620px 1fr;
-  }
+  grid-template-columns: var(--page-column);
 }
 main > * {
   grid-column: 2 / 3;

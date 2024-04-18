@@ -4,7 +4,7 @@ import Page from "@layouts/Page";
 /* Component */
 import Hero from "@components/Hero";
 /* Image */
-import banner from "@images/Banner.png";
+import banner from "@images/Banner.webp";
 
 const Home = () => {
   return (

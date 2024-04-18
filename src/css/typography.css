@@ -14,3 +14,12 @@ a:not([class]):focus,
 a:not([class]):hover {
   color: #0f726e;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-theme);
+  text-transform: uppercase;
+}

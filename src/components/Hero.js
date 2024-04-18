@@ -9,11 +9,15 @@ function Hero(props) {
   const { alt, children, h1, img } = props;
   return (
     <div className="hero">
-      {img && <img alt={alt} className="hero-background" src={img} />}
-      <div className="hero-content">
-        <img className="hero-logo" src={logo} alt="CR Productions logo" />
-        <h1>{h1}</h1>
-        {children && children}
+      <div className="hero-background">
+        {img && <img alt={alt} className="hero-background" src={img} />}
+      </div>
+      <div className="hero-layout">
+        <div className="hero-content">
+          <img className="hero-logo" src={logo} alt="CR Productions logo" />
+          <h1>{h1}</h1>
+          {children && children}
+        </div>
       </div>
     </div>
   );
