@@ -5,14 +5,16 @@
 :root {
   --font-theme: Simo;
   --font-base: "Courier New", Courier, monospace;
+  line-height: 1.5;
 }
 a:not([class]) {
-  color: #2f516a;
+  color: var(--color-link);
+  text-underline-offset: 0.25em;
 }
 a:not([class]):active,
 a:not([class]):focus,
 a:not([class]):hover {
-  color: #0f726e;
+  color: var(--color-link-hover);
 }
 h1,
 h2,

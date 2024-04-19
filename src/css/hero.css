@@ -30,7 +30,7 @@
   grid-template-columns: var(--page-column);
 }
 .hero .hero-content {
-  color: #fff;
+  color: white;
   display: grid;
   grid-column: 2 / 3;
   grid-template-columns: 1fr 5fr;

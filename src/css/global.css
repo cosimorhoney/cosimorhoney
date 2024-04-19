@@ -1,16 +1,28 @@
 :root {
   --color-app: #110c09;
-  --color-text: #110c09;
   --color-bg: white;
+  --color-text: #110c09;
+  --color-link: #2f516a;
+  --color-link-hover: #0f726e;
+  --color-dark: #110c09;
   --page-column: 40px minmax(200px, 1fr) 40px;
-  @media (min-width: 700px) {
-    & {
-      --page-column: 1fr 620px 1fr;
-    }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #110c09;
+    --color-text: white;
+    --color-link: #43a5bd;
+    --color-link-hover: #69c5d1;
+  }
+}
+@media (min-width: 700px) {
+  :root {
+    --page-column: 1fr 620px 1fr;
   }
 }
 body {
   background-color: var(--color-app);
+  color: var(--color-text);
   font-family: var(--font-base);
   margin: 0;
 }
