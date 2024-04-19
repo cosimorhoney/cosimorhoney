@@ -13,22 +13,22 @@ const Home = () => {
       <section>
         <h2>About</h2>
         <p>
-          My name is Cosimo Rhoney and I am a photographer and videographer. My
-          interest in film began when I was around 6-8 and was making short home
-          movies with my sister and friends for fun. A few years later, I
-          purchased an action camera and then a professional video drone a bit
-          after that. These were fun to use, but I really didn't know what I was
-          missing out on till I got a traditional camera. I had tons of fun
-          learning and practicing photography with it. I carried it everywhere
-          and took lots of photos all the time. After a while, I decided to
-          start selling, so I put up photography prints for sale online and
-          started offering my photography as a service. That was the beginning
-          of Cosimo Rhoney Productions (Cosimo Rhoney Photo). Eventually I
-          started making sales and finding clients. I continued learning and
-          practicing and began producing income. I then decided to explore
-          videography more to expand my services and produce more content.
-          Currently, I offer both photography and videography service. You can
-          contact me on{" "}
+          My name is Cosimo Rhoney and I am a photographer, videographer and
+          cinematographer. My interest in film began when I was around 6-8 and
+          was making short home movies with my sister and friends for fun. A few
+          years later, I purchased an action camera and then a professional
+          video drone a bit after that. These were fun to use, but I really
+          didn't know what I was missing out on till I got a traditional camera.
+          I had tons of fun learning and practicing photography with it. I
+          carried it everywhere and took lots of photos all the time. After a
+          while, I decided to start selling, so I put up photography prints for
+          sale online and started offering my photography as a service. That was
+          the beginning of Cosimo Rhoney Productions (originally named Cosimo
+          Rhoney Photo). Eventually I started making sales and finding clients.
+          I continued learning and practicing and began producing income. I then
+          decided to explore videography more to expand my services and produce
+          more content. Currently, I offer both photography and videography
+          service. If you are interested in my services, you can contact me on{" "}
           <a
             href="https://linkedin.com/in/cosimorhoney"
             target="_blank"
