@@ -13,39 +13,38 @@ const Home = () => {
       <section>
         <h2>About</h2>
         <p>
-          My name is Cosimo Rhoney and I am a photographer, videographer and
-          cinematographer. My interest in film began when I was around 6-8 and
-          was making short home movies with my sister and friends for fun. A few
-          years later, I purchased an action camera and then a professional
-          video drone a bit after that. These were fun to use, but I really
-          didn't know what I was missing out on till I got a traditional camera.
-          I had tons of fun learning and practicing photography with it. I
-          carried it everywhere and took lots of photos all the time. After a
-          while, I decided to start selling, so I put up photography prints for
-          sale online and started offering my photography as a service. That was
-          the beginning of Cosimo Rhoney Productions (originally named Cosimo
-          Rhoney Photo). Eventually I started making sales and finding clients.
-          I continued learning and practicing and began producing income. I then
-          decided to explore videography more to expand my services and produce
-          more content. Currently, I offer both photography and videography
-          service. If you are interested in my services, you can contact me on{" "}
+          Filmmaking has been a long lasting passion of mine, all the way back
+          to the home movies made on my dad's old phone. I now see film as a way
+          to communicate artistic messages with emotions and atmospheres,
+          whether set in otherworldly places or in day to day life. It's also a
+          way for me to inspire others to be creative as well. My experience and
+          skills have grown rapidly, not only learning the principles that make
+          a good image, but gaining an understanding of many aspects of the
+          movie production such as story structure, music composition, audio,
+          etc. I apply these skills as best I can in my short films posted on my
+          YouTube channel and I am always expanding in my education and
+          portfolio through these films. I have extensive goals in this industry
+          and I plan to make a strong impact with my art and beyond.
+        </p>
+        <p>
+          YouTube:{" "}
+          <a
+            href="https://www.youtube.com/@cosimorhoneyproductions"
+            target="_blank"
+            rel="noreferrer"
+          >
+            youtube.com/@cosimorhoneyproductions
+          </a>
+        </p>
+        <p>
+          LinkedIn:{" "}
           <a
             href="https://linkedin.com/in/cosimorhoney"
             target="_blank"
             rel="noreferrer"
           >
-            Linkedin
+            linkedin.com/in/cosimorhoney
           </a>
-          . If you are interested in seeing and/or purchasing my photography
-          work, you can find it at{" "}
-          <a href="https://fineartamerica.com/profiles/cosimo-rhoney">
-            Fine Art America
-          </a>
-          . To see video content and animation, you can check me out on{" "}
-          <a href="https://www.youtube.com/@cosimorhoneyproductions">
-            YouTube @cosimorhoneyproductions
-          </a>
-          .
         </p>
         {/* <h2>Cosimo Rhoney Productions Team</h2>
         <p>
