@@ -27,23 +27,21 @@ const Home = () => {
           and I plan to make a strong impact with my art and beyond.
         </p>
         <p>
-          YouTube:{" "}
           <a
             href="https://www.youtube.com/@cosimorhoneyproductions"
             target="_blank"
             rel="noreferrer"
           >
-            youtube.com/@cosimorhoneyproductions
+            Cosimo Rhoney on YouTube
           </a>
         </p>
         <p>
-          LinkedIn:{" "}
           <a
             href="https://linkedin.com/in/cosimorhoney"
             target="_blank"
             rel="noreferrer"
           >
-            linkedin.com/in/cosimorhoney
+            Cosimo Rhoney on LinkedIn
           </a>
         </p>
         {/* <h2>Cosimo Rhoney Productions Team</h2>
