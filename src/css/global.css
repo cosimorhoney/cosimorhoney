@@ -21,20 +21,62 @@
   }
 }
 body {
+  margin: 0;
   background-color: var(--color-app);
   color: var(--color-text);
   font-family: var(--font-base);
-  margin: 0;
 }
 main {
-  background-color: var(--color-bg);
   display: grid;
   grid-template-columns: var(--page-column);
+  background-color: var(--color-bg);
 }
 main > * {
   grid-column: 2 / 3;
 }
 section {
-  padding-bottom: 40px;
+  z-index: 1;
   padding-top: 40px;
+  padding-bottom: 40px;
+}
+iframe {
+  width: 100%;
+}
+
+/* 
+ * T Y P O G R A P H Y
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0 0 1.3em 0;
+}
+li {
+  margin: 0 0 1em 0;
+}
+
+/* 
+ * F O R M A T T I N G
+ */
+
+.flush-next {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.aspect-16-9 {
+  aspect-ratio: 16 / 9;
+}
+.aspect-21-9 {
+  aspect-ratio: 21 / 9;
+}
+.aspect-32-9 {
+  aspect-ratio: 32 / 9;
 }

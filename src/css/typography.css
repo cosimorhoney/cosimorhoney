@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Simo";
   src: local("Simo"), url(./fonts/simo.ttf) format("truetype");
+  font-family: "Simo";
 }
 :root {
   --font-theme: Simo;
@@ -24,4 +24,15 @@ h5,
 h6 {
   font-family: var(--font-theme);
   text-transform: uppercase;
+}
+.title-lg {
+  font-size: 24px;
+}
+.title-md {
+  opacity: 0.8;
+  font-size: 20px;
+}
+.title-sm {
+  opacity: 0.6;
+  font-size: 16px;
 }

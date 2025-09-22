@@ -9,64 +9,80 @@ import banner from "@images/Banner.webp";
 const Home = () => {
   return (
     <Page>
-      <Hero alt="hello" h1="Cosimo Rhoney" img={banner} />
+      <Hero
+        alt="hello"
+        video={
+          "https://res.cloudinary.com/debrk3xwf/video/upload/v1754179784/cosimo-rhoney-hero-background-home_st8uhe.mp4"
+        }
+      />
       <section>
-        <h2>About</h2>
+        <h1 className="title-sm flush-next">Cosimo Rhoney Productions</h1>
+        <h2 className="title-lg flush-next">
+          FILMMAKER | PHOTOGRAPHER | MUSICIAN
+        </h2>
+        <h3 className="title-md">ABOUT</h3>
         <p>
-          My name is Cosimo Rhoney and I am a photographer, videographer and
-          cinematographer. My interest in film began when I was around 6-8 and
-          was making short home movies with my sister and friends for fun. A few
-          years later, I purchased an action camera and then a professional
-          video drone a bit after that. These were fun to use, but I really
-          didn't know what I was missing out on till I got a traditional camera.
-          I had tons of fun learning and practicing photography with it. I
-          carried it everywhere and took lots of photos all the time. After a
-          while, I decided to start selling, so I put up photography prints for
-          sale online and started offering my photography as a service. That was
-          the beginning of Cosimo Rhoney Productions (originally named Cosimo
-          Rhoney Photo). Eventually I started making sales and finding clients.
-          I continued learning and practicing and began producing income. I then
-          decided to explore videography more to expand my services and produce
-          more content. Currently, I offer both photography and videography
-          service. If you are interested in my services, you can contact me on{" "}
+          Filmmaking has been a long lasting passion of mine, all the way back
+          to the home movies made on my dad's old phone. I now see film as a way
+          to communicate artistic messages with emotions and atmospheres,
+          whether set in otherworldly places or in day to day life. It's also a
+          way for me to inspire others to be creative as well. My experience and
+          skills have grown rapidly, not only learning the principles that make
+          a good image, but gaining an understanding of many aspects of the
+          movie production such as story structure, music composition, audio,
+          etc. I apply these skills as best I can in my short films posted on my
+          YouTube channel and I am always expanding in my education and
+          portfolio through these films. I have extensive goals in this industry
+          and I plan to make a strong impact with my art and beyond. Me on
+          LinkedIn Me on YouTube MOVIES IN THE MAKING PROJECTS TITLE: The First
+          Surge STATUS: In Progress GENRE: Sci-fi, Fantasy DESCRIPTION With a
+          targeted 7min of runtime, this may be my longest film endeavor with
+          the most preparation needed in props, costumes, scripting and more. I
+          plan to execute this project using as much of my own content as
+          possible, meaning ideally no stock photos and minimal sound fx and
+          music. As I work on the script, I have been composing my own score for
+          the film and listening to it for inspiration. The story-line continues
+          to follow the main character in “Voice of the Earth”, a 3min short
+          film on my YouTube channel. It tells the story of when a threatening
+          group of outsiders come steal resources from her land. In the original
+          film, almost all effects were applied digitally in post-production. In
+          this project I am striving to accomplish as many practical effects as
+          possible, including the glowing effect on the ground and using many
+          props to put viewers into the sci-fi/fantasy world and convincingly
+          tell the story. Be sure to check out the original film on my channel
+          to preview the tone of this film, and subscribe to be notified when it
+          is released. ©2025 Cosimo Rhoney.{" "}
+        </p>
+        <p>
           <a
             href="https://linkedin.com/in/cosimorhoney"
             target="_blank"
             rel="noreferrer"
           >
-            Linkedin
+            Me on Linkedin
           </a>
-          . If you are interested in seeing and/or purchasing my photography
-          work, you can find it at{" "}
-          <a href="https://fineartamerica.com/profiles/cosimo-rhoney">
-            Fine Art America
-          </a>
-          . To see video content and animation, you can check me out on{" "}
-          <a href="https://www.youtube.com/@cosimorhoneyproductions">
-            YouTube @cosimorhoneyproductions
-          </a>
-          .
-        </p>
-        {/* <h2>Cosimo Rhoney Productions Team</h2>
-        <p>
-          Along with the business side of things, I have been working on small
-          film projects to practice my skills. I have mainly been working on my
-          own, but sometimes this can be a challenge (it's not always easy to be
-          the actor and the camera man at the same time). If you are at the
-          beginning of your film journey, you may be interested in joining the
-          Cosimo Rhoney Productions team. Having a group will allow us to learn
-          more, do more and create more than we could alone.
         </p>
         <p>
-          There are an enormous number of roles in a movie production ranging
-          from writing to filming to delivering pizza to the crew (although
-          Cosimo Rhoney Productions isn't looking for a pizza delivery guy).
+          {" "}
+          <a
+            href="https://www.youtube.com/@cosimorhoneyproductions"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Me on YouTube
+          </a>
         </p>
-        <p>
-          The team is small now, but the only way for it to grow is for more
-          people to join! Feel free to{" "}
-          <a href="mailto:crphoto@proton.me">shoot me an email</a>.
-        </p> */}
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/TTwcOrf3BE0?si=RsvfPre8Mqcxjx8h&amp;controls=0&rel=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          className="aspect-32-9"
+        ></iframe>
       </section>
     </Page>
   );
