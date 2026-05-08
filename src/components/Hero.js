@@ -16,12 +16,12 @@ function Hero(props) {
             width="1920"
             height="1080"
             id="aF-asdfgasdf-video"
-            class="background-video"
+            className="background-video"
             src={video}
-            autoplay="autoplay"
+            autoPlay
             muted
             loop
-            playsinline
+            playsInline
             preload="metadata"
           >
             <source type="video/mp4" src={video} />
