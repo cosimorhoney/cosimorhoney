@@ -33,25 +33,7 @@ const Home = () => {
           etc. I apply these skills as best I can in my short films posted on my
           YouTube channel and I am always expanding in my education and
           portfolio through these films. I have extensive goals in this industry
-          and I plan to make a strong impact with my art and beyond. Me on
-          LinkedIn Me on YouTube MOVIES IN THE MAKING PROJECTS TITLE: The First
-          Surge STATUS: In Progress GENRE: Sci-fi, Fantasy DESCRIPTION With a
-          targeted 7min of runtime, this may be my longest film endeavor with
-          the most preparation needed in props, costumes, scripting and more. I
-          plan to execute this project using as much of my own content as
-          possible, meaning ideally no stock photos and minimal sound fx and
-          music. As I work on the script, I have been composing my own score for
-          the film and listening to it for inspiration. The story-line continues
-          to follow the main character in “Voice of the Earth”, a 3min short
-          film on my YouTube channel. It tells the story of when a threatening
-          group of outsiders come steal resources from her land. In the original
-          film, almost all effects were applied digitally in post-production. In
-          this project I am striving to accomplish as many practical effects as
-          possible, including the glowing effect on the ground and using many
-          props to put viewers into the sci-fi/fantasy world and convincingly
-          tell the story. Be sure to check out the original film on my channel
-          to preview the tone of this film, and subscribe to be notified when it
-          is released. ©2025 Cosimo Rhoney.{" "}
+          and I plan to make a strong impact with my art and beyond.
         </p>
         <p>
           <a

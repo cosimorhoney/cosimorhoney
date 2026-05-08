@@ -21,15 +21,22 @@
   }
 }
 body {
+  position: relative;
   margin: 0;
-  background-color: var(--color-app);
+  background: linear-gradient(90deg, #462609, #000000, #122254);
   color: var(--color-text);
   font-family: var(--font-base);
+}
+body::before {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, var(--color-app) 32vw, transparent);
+  content: "";
 }
 main {
   display: grid;
   grid-template-columns: var(--page-column);
-  background-color: var(--color-bg);
+  /* background-color: var(--color-bg); */
 }
 main > * {
   grid-column: 2 / 3;

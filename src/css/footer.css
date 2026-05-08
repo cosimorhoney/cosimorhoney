@@ -1,10 +1,10 @@
 footer {
-  background-color: var(--color-dark);
-  color: white;
   display: grid;
   grid-template-columns: 40px 1fr 40px;
-  padding-bottom: 40px;
   padding-top: 40px;
+  padding-bottom: 40px;
+  /* background-color: var(--color-dark); */
+  color: white;
 }
 @media (min-width: 700px) {
   footer {
