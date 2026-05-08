@@ -4,7 +4,11 @@ import Page from "@layouts/Page";
 /* Component */
 import Hero from "@components/Hero";
 /* Image */
-import banner from "@images/Banner.webp";
+import freelove from "@images/Freelove-Poster.webp";
+import josh from "@images/JOSH-Poster.webp";
+import smestyfif from "@images/Page-Smesty-Fif-Poster.webp";
+import vote from "@images/VOTE-Poster-RGB.webp";
+import vote2 from "@images/VOTE2-Poster.webp";
 
 const Home = () => {
   return (
@@ -54,17 +58,38 @@ const Home = () => {
             Me on YouTube
           </a>
         </p>
+      </section>
+      <section>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/TTwcOrf3BE0?si=RsvfPre8Mqcxjx8h&amp;controls=0&rel=0"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
           className="aspect-32-9"
         ></iframe>
+      </section>
+      <section className="full-width">
+        <div className="gallery-row">
+          <a href="https://www.youtube.com/watch?v=Sx5fSj5JUOs">
+            <img src={freelove} alt="freelove" />
+          </a>
+          <a href="https://www.youtube.com/watch?v=u-CYX5256EI">
+            <img src={josh} alt="josh" />
+          </a>
+          <a href="javascript:void(0);">
+            <img src={smestyfif} alt="smestyfif" />
+          </a>
+          <a href="https://www.youtube.com/watch?v=TTwcOrf3BE0">
+            <img src={vote} alt="vote" />
+          </a>
+          <a href="javascript:void(0);">
+            <img src={vote2} alt="vote2" />
+          </a>
+        </div>
       </section>
     </Page>
   );
