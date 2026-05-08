@@ -19,7 +19,7 @@ function Hero(props) {
             className="background-video"
             src={video}
             autoPlay
-            muted
+            muted={true}
             loop
             playsInline
             preload="metadata"
