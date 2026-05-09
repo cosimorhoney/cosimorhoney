@@ -1,10 +1,12 @@
 footer {
   display: grid;
+  position: relative;
   grid-template-columns: 40px 1fr 40px;
-  z-index: 10;
+  z-index: 15;
+  background: transparent
+    linear-gradient(to bottom, transparent, var(--color-app));
   padding-top: 40px;
   padding-bottom: 40px;
-  /* background-color: var(--color-dark); */
   color: white;
 }
 @media (min-width: 700px) {

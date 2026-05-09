@@ -1,6 +1,8 @@
 :root {
   --color-app: #110c09;
   --color-bg: #110c09;
+  --color-left: #462609;
+  --color-right: #122254;
   --color-text: white;
   --color-link: #43a5bd;
   --color-link-hover: #69c5d1;
@@ -15,7 +17,13 @@
 body {
   position: relative;
   margin: 0;
-  background: var(--color-app) linear-gradient(90deg, #462609, #000000, #122254)
+  background: var(--color-app)
+    linear-gradient(
+      90deg,
+      var(--color-left),
+      var(--color-app),
+      var(--color-right)
+    )
     no-repeat;
   overflow-x: hidden;
   color: var(--color-text);
@@ -29,6 +37,7 @@ body::before {
 }
 main {
   display: grid;
+  position: relative;
   grid-template-columns: var(--page-column);
   z-index: 0;
   /* background-color: var(--color-bg); */
@@ -37,7 +46,13 @@ main::before {
   position: absolute;
   z-index: 5;
   inset: clamp(386px, 53vw, 53vw) 0 0;
-  background: var(--color-app) linear-gradient(90deg, #462609, #000000, #122254)
+  background: var(--color-app)
+    linear-gradient(
+      90deg,
+      var(--color-left),
+      var(--color-app),
+      var(--color-right)
+    )
     no-repeat;
   pointer-events: none;
   content: "";
