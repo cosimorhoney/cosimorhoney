@@ -1,19 +1,11 @@
 :root {
   --color-app: #110c09;
-  --color-bg: white;
-  --color-text: #110c09;
-  --color-link: #2f516a;
-  --color-link-hover: #0f726e;
+  --color-bg: #110c09;
+  --color-text: white;
+  --color-link: #43a5bd;
+  --color-link-hover: #69c5d1;
   --color-dark: #110c09;
   --page-column: 40px minmax(200px, 1fr) 40px;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #110c09;
-    --color-text: white;
-    --color-link: #43a5bd;
-    --color-link-hover: #69c5d1;
-  }
 }
 @media (min-width: 700px) {
   :root {
@@ -23,7 +15,8 @@
 body {
   position: relative;
   margin: 0;
-  background: linear-gradient(90deg, #462609, #000000, #122254);
+  background: var(--color-app) linear-gradient(90deg, #462609, #000000, #122254)
+    no-repeat;
   overflow-x: hidden;
   color: var(--color-text);
   font-family: var(--font-base);
@@ -31,19 +24,43 @@ body {
 body::before {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, var(--color-app) 32vw, transparent);
+  background: linear-gradient(180deg, var(--color-app) 50vw, transparent);
   content: "";
 }
 main {
   display: grid;
   grid-template-columns: var(--page-column);
+  z-index: 0;
   /* background-color: var(--color-bg); */
+}
+main::before {
+  position: absolute;
+  z-index: 5;
+  inset: clamp(386px, 53vw, 53vw) 0 0;
+  background: var(--color-app) linear-gradient(90deg, #462609, #000000, #122254)
+    no-repeat;
+  pointer-events: none;
+  content: "";
+}
+main::after {
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  background: transparent
+    linear-gradient(
+      to bottom,
+      transparent clamp(176px, 27vw, 27vw),
+      var(--color-app) clamp(386px, 53vw, 53vw),
+      transparent
+    );
+  pointer-events: none;
+  content: "";
 }
 main > * {
   grid-column: 2 / 3;
 }
 section {
-  z-index: 1;
+  z-index: 10;
   padding-top: 40px;
   padding-bottom: 40px;
 }

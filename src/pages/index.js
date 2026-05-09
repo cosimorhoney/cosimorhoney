@@ -6,7 +6,7 @@ import Hero from "@components/Hero";
 /* Image */
 import freelove from "@images/Freelove-Poster.webp";
 import josh from "@images/JOSH-Poster.webp";
-import smestyfif from "@images/Page-Smesty-Fif-Poster.webp";
+import smestyfif from "@images/Page-Smesty-Fif-Poster-RGB.webp";
 import vote from "@images/VOTE-Poster-RGB.webp";
 import vote2 from "@images/VOTE2-Poster.webp";
 
